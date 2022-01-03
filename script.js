@@ -11,7 +11,7 @@ import Tarefa from './componentes/tarefa.js'
                 .value
 
         if (valor.length < 5){
-            document.querySelector('[data-aviso').classList.remove('d-none')
+            document.querySelector('[data-aviso]').classList.remove('d-none')
             document.querySelector('[data-entrada]').value = ''
             setTimeout(() => {
                 document.querySelector('[data-aviso').classList.add('d-none')
